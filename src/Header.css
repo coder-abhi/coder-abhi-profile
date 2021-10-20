@@ -1,0 +1,27 @@
+.header{
+    background-color: black;
+    height: 100vh;
+
+}
+.circle-img{
+    background-color: aqua;
+    /* width: 22%; */
+    /* height: 65%; */
+    /* margin-top: 20%; */
+}
+.profile-img{
+    border-radius: 50%;
+    /* width: 22%; */
+    margin: 10% 40%;
+    /* width: 200px; */
+    width: 300px;
+}
+@media screen and (max-width : 39.9375em) {
+    .circle-img{
+        background-color:blue;
+    }
+    .profile-img{
+        width:180px;
+        margin: 30% 25%;
+    }
+}
