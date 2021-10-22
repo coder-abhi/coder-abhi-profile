@@ -4,13 +4,25 @@
     height: 100%;
     z-index: 5;
     font-size: 80px;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .center-slots{
-    height: 100px;
-    height: 50px;
+    height: 310px;
     background-color: rgb(38, 230, 230);
+    /* padding: 50px; */
+    margin: 50px;
+    display: flex;
+}
+.center-slots-sub{
+    background-color: blueviolet;
+    height: 270px;
+    width: 100%;
+    margin: 20px;
+    /* height: 270px; */
+}
+.sub-slot-1{
+    width: 40%;
 }
 /* .center-slots::after{
 } */

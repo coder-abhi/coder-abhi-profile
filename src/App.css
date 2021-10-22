@@ -2,6 +2,9 @@
     box-sizing: border-box;
     max-width: 100%;
     overflow-x:hidden;
+}
+.App{
+    
     background-image: url("./Img/bg-slide.jpg");
     /* background-repeat: no-repeat; */
     background-size: cover;
