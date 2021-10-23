@@ -11,7 +11,7 @@
 }
 
 .center-slots{
-    height: 310px;
+    height: 320px;
     background-color: rgb(38, 230, 230);
     /* padding: 50px; */
     margin: 50px;
@@ -19,9 +19,10 @@
 }
 .center-slots-sub{
     background-color: blueviolet;
-    height: 270px;
+    /* height: 330px; */
     width: 100%;
-    margin: 20px;
+    height: 100%;
+    margin: 0 2vh;
     /* height: 270px; */
     overflow: hidden;
     font-size: 20%;
@@ -71,3 +72,13 @@ progress {
   progress::-webkit-progress-bar {
     background: white;
   }
+
+@media screen and (max-width:39.9375em){
+    .center-slots{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .center-slots-sub{
+        width: 100%;
+    }
+}
