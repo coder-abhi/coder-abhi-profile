@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d0b565e.chunk.css",
+    "main.js": "/static/js/main.90403cad.chunk.js",
+    "main.js.map": "/static/js/main.90403cad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f06c0345.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f06c0345.js.map",
+    "static/js/2.d5850563.chunk.js": "/static/js/2.d5850563.chunk.js",
+    "static/js/2.d5850563.chunk.js.map": "/static/js/2.d5850563.chunk.js.map",
+    "static/js/3.3fd42179.chunk.js": "/static/js/3.3fd42179.chunk.js",
+    "static/js/3.3fd42179.chunk.js.map": "/static/js/3.3fd42179.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7d0b565e.chunk.css.map": "/static/css/main.7d0b565e.chunk.css.map",
+    "static/js/2.d5850563.chunk.js.LICENSE.txt": "/static/js/2.d5850563.chunk.js.LICENSE.txt",
+    "static/media/MyImg.caf0101b.jpg": "/static/media/MyImg.caf0101b.jpg",
+    "static/media/App.css": "/static/media/bg-slide.153d5f8f.jpg",
+    "static/media/call_ico.c736d15a.ico": "/static/media/call_ico.c736d15a.ico",
+    "static/media/location_ico.6b5427fb.ico": "/static/media/location_ico.6b5427fb.ico",
+    "static/media/mail_ico.a3e812b4.ico": "/static/media/mail_ico.a3e812b4.ico",
+    "static/media/web_ico.93272d9e.ico": "/static/media/web_ico.93272d9e.ico"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f06c0345.js",
+    "static/js/2.d5850563.chunk.js",
+    "static/css/main.7d0b565e.chunk.css",
+    "static/js/main.90403cad.chunk.js"
+  ]
+}
