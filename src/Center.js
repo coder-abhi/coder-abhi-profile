@@ -93,12 +93,12 @@ function Center() {
                         </ul>
                     </div>
                 </div>
-                <div className="center-slots-sub sub-slot-2"></div>
+                <div className="center-slots-sub sub-slot-6"></div>
             </div>
-            <div className="center-slots">
+            {/* <div className="center-slots">
                 <div className="center-slots-sub sub-slot-1"></div>
                 <div className="center-slots-sub sub-slot-2"></div>
-            </div>
+            </div> */}
         </div>
     )
 }

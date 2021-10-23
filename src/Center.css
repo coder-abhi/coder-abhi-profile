@@ -64,6 +64,12 @@
 .sub-slot-4{
     width: 30%;
 }
+.sub-slot-5{
+    width: 30%;
+}
+.sub-slot-6{
+    width: 70%;
+}
 .skill-label{
     font-weight: 500;
     display: flex;
