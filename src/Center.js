@@ -17,27 +17,27 @@ function Center() {
 
                 <div className="center-slots-sub sub-slot-2">
                     <div className='center-slots-sub-inner'>
-                        <div className='slot-heading'>Skills</div>
+                        <div className='slot-heading'>SKILLS</div>
                         <div className='skill-label'>
-                            <div className='slot-sub-head'>First</div>
-                            <div>32%</div>
+                            <div className='slot-sub-head'>MERN Development</div>
+                            <div>95%</div>
                         </div>
-                        <progress id="file" value="32" max="100" className='progress-bar' />
+                        <progress id="file" value="92" max="100" className='progress-bar' />
                         <div className='skill-label'>
-                            <div className='slot-sub-head'>First</div>
-                            <div>32%</div>
+                            <div className='slot-sub-head'>Java Development</div>
+                            <div>92%</div>
                         </div>
-                        <progress id="file" value="32" max="100" className='progress-bar' />
+                        <progress id="file" value="92" max="100" className='progress-bar' />
                         <div className='skill-label'>
-                            <div className='slot-sub-head'>First</div>
-                            <div>32%</div>
+                            <div className='slot-sub-head'>C++</div>
+                            <div>85%</div>
                         </div>
-                        <progress id="file" value="32" max="100" className='progress-bar' />
+                        <progress id="file" value="85" max="100" className='progress-bar' />
                         <div className='skill-label'>
-                            <div className='slot-sub-head'>First</div>
-                            <div>32%</div>
+                            <div className='slot-sub-head'>Advance Data Structure</div>
+                            <div>80%</div>
                         </div>
-                        <progress id="file" value="32" max="100" className='progress-bar' />
+                        <progress id="file" value="80" max="100" className='progress-bar' />
                     </div>
                 </div>
 
