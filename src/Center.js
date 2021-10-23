@@ -4,6 +4,7 @@ import IconCall from './Img/call_ico.ico';
 import IconWeb from './Img/web_ico.ico';
 import IconLocation from './Img/location_ico.ico';
 import IconMail from './Img/mail_ico.ico';
+// import StreakImg from "https://github-readme-streak-stats.herokuapp.com/?user=ajauntor&";
 function Center() {
     return (
         <div className="center">
@@ -93,12 +94,20 @@ function Center() {
                         </ul>
                     </div>
                 </div>
-                <div className="center-slots-sub sub-slot-6"></div>
+                <div className="center-slots-sub sub-slot-6">
+                    <img className='streak' src="https://github-readme-stats.vercel.app/api?username=coder-abhi&show_icons=true&locale=en&count_private=true&custom_title=Github Stats" alt=''/>
+                </div>
             </div>
-            {/* <div className="center-slots">
-                <div className="center-slots-sub sub-slot-1"></div>
-                <div className="center-slots-sub sub-slot-2"></div>
-            </div> */}
+            <div className="center-slots">
+                <div className="center-slots-sub sub-slot-7">
+                {/* <div className='slot-heading'> Github Contributions</div> */}
+                <h2>&emsp;Github Contributions</h2>
+                    <img className='streak' src="https://github-readme-streak-stats.herokuapp.com/?user=coder-abhi&count_private=true&custom_title=Github Contribution&hide_border=true" alt=''/>
+                </div>
+                <div className="center-slots-sub sub-slot-8">
+                    {/* <img className='streak' src="https://github-readme-stats.vercel.app/api/wakatime?username=coder-abhi&show_icons=true&locale=en&layout=compact&count_private=true" alt='' /> */}
+                </div>
+            </div>
         </div>
     )
 }

@@ -3,12 +3,6 @@
     height: 85vh;
     overflow: hidden;
 }
-.circle-img{
-    /* background-color: aqua; */
-    /* width: 22%; */
-    /* height: 65%; */
-    /* margin-top: 20%; */
-}
 .profile-img{
     border-radius: 50%;
     /* width: 22%; */
@@ -19,9 +13,6 @@
 @media screen and (max-width : 39.9375em) {
     .header{
         height: 65vh;
-    }
-    .circle-img{
-        /* background-color:blue; */
     }
     .profile-img{
         width:180px;

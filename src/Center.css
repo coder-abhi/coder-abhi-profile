@@ -9,7 +9,12 @@
     font-size: 80px;
     /* background-color: black; */
 }
-
+.streak{
+    background-color: aqua;
+    width: 100%;
+    /* height: 100%; */
+    /* margin: 15px 25px; */
+}
 .center-slots{
     height: 320px;
     /* background-color: rgb(38, 230, 230); */
@@ -69,6 +74,13 @@
 }
 .sub-slot-6{
     width: 70%;
+}
+.sub-slot-7{
+    width: 40%;
+    background-color: white;
+}
+.sub-slot-8{
+    width: 60%;
 }
 .skill-label{
     font-weight: 500;
