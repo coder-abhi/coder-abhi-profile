@@ -44,26 +44,37 @@ function Center() {
             </div>
 
             <div className="center-slots">
-                <div className="center-slots-sub sub-slot-1">
+                <div className="center-slots-sub sub-slot-3">
                     <div className='center-slots-sub-inner'>
                         <div className='slot-heading'>Education</div>
                         <ul>
                             <li className='slot-edu-heading'> Bachelor of Engineering - Information Technology </li>
-                            <li><pre>&emsp; &emsp; Parvatibai Genba Moze College Of Engineering <br />
-                                &emsp; &emsp; SGPA - 9.83 <br />
-                                &emsp; &emsp; 2019-2022</pre></li>
+                            <li><pre>Parvatibai Genba Moze College Of Engineering <br />
+                                &emsp; SGPA - 9.83 <br />
+                                &emsp; 2019-2022</pre></li>
                         </ul>
                         <ul>
                             <li className='slot-edu-heading'> Diploma - Mechanical Engineering </li>
-                            <li><pre>&emsp; &emsp; JSPM's BIT, Barshi <br />
-                                &emsp; &emsp; Percentage - 62.80 <br />
-                                &emsp; &emsp; 2016-2019</pre></li>
+                            <li><pre>JSPM's BIT, Barshi <br />
+                                &emsp; Percentage - 62.80 <br />
+                                &emsp; 2016-2019</pre></li>
                         </ul>
 
 
                     </div>
                 </div>
-                <div className="center-slots-sub sub-slot-2"></div>
+                <div className="center-slots-sub sub-slot-4">
+                    <div className='center-slots-sub-inner'>
+                        <div className='slot-heading'>SOFT SKILLS</div>
+                        <ul className='soft-skill-list'>
+                            <li>&#9733; Critical Thinking</li>
+                            <li>&#9733; Prolem Solving</li>
+                            <li>&#9733; Team Work</li>
+                            <li>&#9733; Public Speaking</li>
+                            <li>&#9733; Communication Skills</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div className="center-slots">
                 <div className="center-slots-sub sub-slot-1"></div>

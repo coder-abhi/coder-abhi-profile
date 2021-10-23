@@ -58,6 +58,12 @@
 .sub-slot-2{
     width: 45%;
 }
+.sub-slot-3{
+    width: 70%;
+}
+.sub-slot-4{
+    width: 30%;
+}
 .skill-label{
     font-weight: 500;
     display: flex;
@@ -66,6 +72,18 @@
 }
 /* .center-slots::after{
 } */
+.soft-skill-list{
+    list-style-type: circle;
+    line-height: 200%;
+    font-weight: 600;
+    /* background-color: brown; */
+    font-size: 18px;
+}
+pre {
+    white-space: pre-wrap;
+    word-break: keep-all
+}
+
 progress {
     /* border: none; */
     border: 31px;
