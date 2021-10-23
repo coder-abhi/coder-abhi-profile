@@ -79,6 +79,13 @@
     /* background-color: brown; */
     font-size: 18px;
 }
+.contact-list{
+    line-height: 250%;
+}
+.contact-list-ele{
+    height: 20px;
+    width: 20px;
+}
 pre {
     white-space: pre-wrap;
     word-break: keep-all
@@ -111,14 +118,30 @@ progress {
     .center-slots{
         flex-wrap: wrap;
         height: auto;
+        margin: 0px 30px;
     }
     .center-slots-sub{
+        margin:0;
         width: 100%;
+        margin-top: 25px;
     }
+    /* .center-slots-sub-inner{
+        /* margin-top: 5vh; */
+    /* } */ 
     .about-me{
         width: 100%;
     }
     /* .slot-heading{
         margin-left: 35%;
     } */
+    .contact-list{
+        font-size: 90%;
+        margin-left: -40px;
+        font-weight: 700;
+    }
+    .contact-list-ele{
+        height: 16px;
+        width: 18px;
+        /* margin-left: -10px; */
+    }
 }

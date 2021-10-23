@@ -1,7 +1,7 @@
 .header{
     /* background-color: black; */
     height: 100vh;
-
+    overflow: hidden;
 }
 .circle-img{
     /* background-color: aqua; */
@@ -17,6 +17,9 @@
     width: 300px;
 }
 @media screen and (max-width : 39.9375em) {
+    .header{
+        height: 65vh;
+    }
     .circle-img{
         /* background-color:blue; */
     }

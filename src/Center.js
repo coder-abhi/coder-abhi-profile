@@ -1,5 +1,9 @@
 import React from 'react'
 import './Center.css'
+import IconCall from './Img/call_ico.ico';
+import IconWeb from './Img/web_ico.ico';
+import IconLocation from './Img/location_ico.ico';
+import IconMail from './Img/mail_ico.ico';
 function Center() {
     return (
         <div className="center">
@@ -67,7 +71,7 @@ function Center() {
                     <div className='center-slots-sub-inner'>
                         <div className='slot-heading'>SOFT SKILLS</div>
                         <ul className='soft-skill-list'>
-                            <li>&#9733; Critical Thinking</li>
+                            <li> Critical Thinking</li>
                             <li>&#9733; Prolem Solving</li>
                             <li>&#9733; Team Work</li>
                             <li>&#9733; Public Speaking</li>
@@ -77,7 +81,18 @@ function Center() {
                 </div>
             </div>
             <div className="center-slots">
-                <div className="center-slots-sub sub-slot-1"></div>
+                <div className="center-slots-sub sub-slot-5">
+                <div className='center-slots-sub-inner'>
+                        <div className='slot-heading'>Contact</div>
+                        <ul className='soft-skill-list contact-list'>
+                        
+                            <li><img src={IconCall} className='contact-list-ele' alt=''/> Pune </li>
+                            <li><img src={IconCall} className='contact-list-ele' alt=''/> +91 7020606242</li>
+                            <li><img src={IconCall} className='contact-list-ele ele-mail' alt=''/> abhi.kamble.3987@gmail.com</li>
+                            <li><img src={IconCall} className='contact-list-ele' alt=''/> https://coder-abhi.vercel.app</li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="center-slots-sub sub-slot-2"></div>
             </div>
             <div className="center-slots">
