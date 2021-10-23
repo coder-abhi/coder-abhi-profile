@@ -83,31 +83,44 @@ function Center() {
             </div>
             <div className="center-slots">
                 <div className="center-slots-sub sub-slot-5">
-                <div className='center-slots-sub-inner'>
+                    <div className='center-slots-sub-inner'>
                         <div className='slot-heading'>Contact</div>
                         <ul className='soft-skill-list contact-list'>
-                        
-                            <li><img src={IconLocation} className='contact-list-ele' alt=''/> Pune </li>
-                            <li><img src={IconCall} className='contact-list-ele' alt=''/> +91 7020606242</li>
-                            <li><img src={IconMail} className='contact-list-ele ele-mail' alt=''/> abhi.kamble.3987@gmail.com</li>
-                            <li><img src={IconWeb} className='contact-list-ele' alt=''/> https://coder-abhi.vercel.app</li>
+
+                            <li><img src={IconLocation} className='contact-list-ele' alt='' /> Pune </li>
+                            <li><img src={IconCall} className='contact-list-ele' alt='' /> +91 7020606242</li>
+                            <li><img src={IconMail} className='contact-list-ele ele-mail' alt='' /> abhi.kamble.3987@gmail.com</li>
+                            <li><img src={IconWeb} className='contact-list-ele' alt='' /> https://coder-abhi.vercel.app</li>
                         </ul>
                     </div>
                 </div>
                 <div className="center-slots-sub sub-slot-6">
-                    <img className='streak' src="https://github-readme-stats.vercel.app/api?username=coder-abhi&show_icons=true&locale=en&count_private=true&custom_title=Github Stats" alt=''/>
+                    <img className='streak' src="https://github-readme-stats.vercel.app/api?username=coder-abhi&show_icons=true&locale=en&count_private=true&custom_title=Github Stats" alt='' />
                 </div>
             </div>
             <div className="center-slots">
+                <div className="center-slots-sub sub-slot-9">
+                    <h2>Top Repositories</h2>
+                    <div className='repo-slot'>
+
+                        <img className='repository' src="https://github-readme-stats.vercel.app/api/pin?username=coder-abhi&repo=Automatic-File-Sort&show_icons=true&locale=en&count_private=true" alt='' />
+                        <img className='repository' src="https://github-readme-stats.vercel.app/api/pin?username=coder-abhi&repo=Task-Scheduler&show_icons=true&locale=en&count_private=true" alt='' />
+                        <img className='repository' src="https://github-readme-stats.vercel.app/api/pin?username=coder-abhi&repo=Jarvis-For-Windows&show_icons=true&locale=en&count_private=true" alt='' />
+                        <img className='repository' src="https://github-readme-stats.vercel.app/api/pin?username=coder-abhi&repo=Amazon-Clone&show_icons=true&locale=en&count_private=true" alt='' />
+                    </div>
+                </div>
                 <div className="center-slots-sub sub-slot-7">
-                {/* <div className='slot-heading'> Github Contributions</div> */}
-                <h2>&emsp;Github Contributions</h2>
-                    <img className='streak' src="https://github-readme-streak-stats.herokuapp.com/?user=coder-abhi&count_private=true&custom_title=Github Contribution&hide_border=true" alt=''/>
+                    <h2>&emsp;Github Contributions</h2>
+                    <img className='streak' src="https://github-readme-streak-stats.herokuapp.com/?user=coder-abhi&count_private=true&custom_title=Github Contribution&hide_border=true&title_color=#000000" alt='' />
+                </div>
+                    {/* <div className='slot-heading'> Github Contributions</div> */}
+            </div>
+            {/* <div className="center-slots">
+                <div className="center-slots-sub sub-slot-10">
                 </div>
                 <div className="center-slots-sub sub-slot-8">
-                    {/* <img className='streak' src="https://github-readme-stats.vercel.app/api/wakatime?username=coder-abhi&show_icons=true&locale=en&layout=compact&count_private=true" alt='' /> */}
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
