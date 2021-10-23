@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .center{
     /* background-color: aqua; */
     /* height: 155px; */
@@ -20,9 +23,51 @@
     width: 100%;
     margin: 20px;
     /* height: 270px; */
+    overflow: hidden;
+    font-size: 20%;
+}
+.center-slots-sub-inner{
+    margin: 15px;
+    background-color: blue;
+    /* justify-content: space-evenly; */
+}
+.slot-heading{
+    font-weight: 700;
+    font-size: larger;
 }
 .sub-slot-1{
+    width: 60%;
+}
+.sub-slot-2{
     width: 40%;
+}
+.skill-label{
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
 }
 /* .center-slots::after{
 } */
+progress {
+    /* border: none; */
+    border: 31px;
+    width: 100%;
+    height: 10px;
+    margin: 0 0 12px 0;
+    border-radius: 5px;
+    /* background: crimson; */
+  }
+  
+  progress::-moz-progress-bar {
+    background: lightcolor;
+  }
+  
+  progress::-webkit-progress-value {
+    /* background: red; */
+    background-color: chartreuse;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: white;
+  }
