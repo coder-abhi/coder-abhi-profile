@@ -32,15 +32,26 @@
     background-color: blue;
     /* justify-content: space-evenly; */
 }
+
+.about-me{
+    font-size: 16px;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+}
+
+
 .slot-heading{
-    font-weight: 700;
-    font-size: larger;
+    margin: 4px 0 0 4px;
+    font-weight: 500;
+    font-size: 30px;
+    
 }
 .sub-slot-1{
-    width: 60%;
+    width: 55%;
 }
 .sub-slot-2{
-    width: 40%;
+    width: 45%;
 }
 .skill-label{
     font-weight: 500;
@@ -81,4 +92,7 @@ progress {
     .center-slots-sub{
         width: 100%;
     }
+    /* .slot-heading{
+        margin-left: 35%;
+    } */
 }
