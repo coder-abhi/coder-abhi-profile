@@ -86,10 +86,10 @@ function Center() {
                         <div className='slot-heading'>Contact</div>
                         <ul className='soft-skill-list contact-list'>
                         
-                            <li><img src={IconCall} className='contact-list-ele' alt=''/> Pune </li>
+                            <li><img src={IconLocation} className='contact-list-ele' alt=''/> Pune </li>
                             <li><img src={IconCall} className='contact-list-ele' alt=''/> +91 7020606242</li>
-                            <li><img src={IconCall} className='contact-list-ele ele-mail' alt=''/> abhi.kamble.3987@gmail.com</li>
-                            <li><img src={IconCall} className='contact-list-ele' alt=''/> https://coder-abhi.vercel.app</li>
+                            <li><img src={IconMail} className='contact-list-ele ele-mail' alt=''/> abhi.kamble.3987@gmail.com</li>
+                            <li><img src={IconWeb} className='contact-list-ele' alt=''/> https://coder-abhi.vercel.app</li>
                         </ul>
                     </div>
                 </div>
