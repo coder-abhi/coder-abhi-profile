@@ -169,6 +169,9 @@ progress {
     /* .slot-heading{
         margin-left: 35%;
     } */
+    .sub-slot-7 h2{
+        font-size: 20px;
+    }
     .contact-list{
         font-size: 90%;
         margin-left: -40px;
