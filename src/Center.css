@@ -154,7 +154,12 @@ progress {
         flex-wrap: wrap;
         height: auto;
         margin: 0px 30px;
+        flex-direction: column;
     }
+    .center-slot-2{
+        flex-direction: column-reverse;
+    }
+
     .center-slots-sub{
         margin:0;
         width: 100%;

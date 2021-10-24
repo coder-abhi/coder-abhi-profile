@@ -8,7 +8,7 @@ import IconMail from './Img/mail_ico.ico';
 function Center() {
     return (
         <div className="center">
-            <div className="center-slots">
+            <div className="center-slots center-slot-1">
 
                 <div className="center-slots-sub sub-slot-1">
                     <div className='center-slots-sub-inner'>
@@ -48,7 +48,7 @@ function Center() {
 
             </div>
 
-            <div className="center-slots">
+            <div className="center-slots center-slot-2">
                 <div className="center-slots-sub sub-slot-3">
                     <div className='center-slots-sub-inner'>
                         <div className='slot-heading'>Education</div>
@@ -81,16 +81,16 @@ function Center() {
                     </div>
                 </div>
             </div>
-            <div className="center-slots">
+            <div className="center-slots center-slot-3">
                 <div className="center-slots-sub sub-slot-5">
                     <div className='center-slots-sub-inner'>
                         <div className='slot-heading'>Contact</div>
                         <ul className='soft-skill-list contact-list'>
 
-                            <li><img src={IconLocation} className='contact-list-ele' alt='' /> Pune </li>
-                            <li><img src={IconCall} className='contact-list-ele' alt='' /> +91 7020606242</li>
-                            <li><img src={IconMail} className='contact-list-ele ele-mail' alt='' /> abhi.kamble.3987@gmail.com</li>
-                            <li><img src={IconWeb} className='contact-list-ele' alt='' /> https://coder-abhi.vercel.app</li>
+                            <li><a href='https://www.google.com/maps/place/Pune,+Maharashtra/@18.5248904,73.722879,11z/'><img src={IconLocation} className='contact-list-ele' alt='' /> Pune </a></li>
+                            <li><a href='tel:5558920234'><img src={IconCall} className='contact-list-ele' alt='' /> +91 7020606242</a></li>
+                            <li><a href='mailto:abhi.kamble.3987@gmail.com'><img src={IconMail} className='contact-list-ele ele-mail' alt='' /> abhi.kamble.3987@gmail.com</a></li>
+                            <li><a href='https://coder-abhi.vercel.app/'><img src={IconWeb} className='contact-list-ele' alt='' /> www.coder-abhi.vercel.app</a></li>
                         </ul>
                     </div>
                 </div>
