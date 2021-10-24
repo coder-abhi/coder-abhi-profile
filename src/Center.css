@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+a{
+    color:black;
+}
 .center{
     /* background-color: aqua; */
     /* height: 155px; */

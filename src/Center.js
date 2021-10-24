@@ -88,7 +88,7 @@ function Center() {
                         <ul className='soft-skill-list contact-list'>
 
                             <li><a href='https://www.google.com/maps/place/Pune,+Maharashtra/@18.5248904,73.722879,11z/'><img src={IconLocation} className='contact-list-ele' alt='' /> Pune </a></li>
-                            <li><a href='tel:5558920234'><img src={IconCall} className='contact-list-ele' alt='' /> +91 7020606242</a></li>
+                            <li><a href='tel:917020606242'><img src={IconCall} className='contact-list-ele' alt='' /> +91 7020606242</a></li>
                             <li><a href='mailto:abhi.kamble.3987@gmail.com'><img src={IconMail} className='contact-list-ele ele-mail' alt='' /> abhi.kamble.3987@gmail.com</a></li>
                             <li><a href='https://coder-abhi.vercel.app/'><img src={IconWeb} className='contact-list-ele' alt='' /> www.coder-abhi.vercel.app</a></li>
                         </ul>
