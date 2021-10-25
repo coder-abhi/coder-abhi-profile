@@ -73,7 +73,7 @@ function Center() {
                         <div className='slot-heading'>SOFT SKILLS</div>
                         <ul className='soft-skill-list'>
                             <li> Critical Thinking</li>
-                            <li>&#9733; Prolem Solving</li>
+                            <li>&#9733; Problem Solving</li>
                             <li>&#9733; Team Work</li>
                             <li>&#9733; Public Speaking</li>
                             <li>&#9733; Communication Skills</li>
